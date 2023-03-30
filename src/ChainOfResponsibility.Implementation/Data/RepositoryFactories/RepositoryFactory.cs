@@ -13,6 +13,8 @@ public class RepositoryFactory : IRepositoryFactory
 
     public RepositoryFactory()
     {
+        // TODO: Does this have a service locator code smell? Or, is this similar to the proxy suggestion from below?
+        // See: https://freecontent.manning.com/dependency-injection-in-net-2nd-edition-abuse-of-abstract-factories/
         m_container = new Container(x => x.IncludeRegistry<RepositoryRegistry>());
     }
     
