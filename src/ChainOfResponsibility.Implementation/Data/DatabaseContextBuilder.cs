@@ -1,5 +1,5 @@
-﻿using ChainOfResponsibility.Implementation.Data.Interfaces;
-using Core.Interfaces;
+﻿using ChainOfResponsibility.Data.Abstractions;
+using Core.Abstractions.Interfaces;
 
 namespace ChainOfResponsibility.Implementation.Data;
 

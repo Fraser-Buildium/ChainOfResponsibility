@@ -1,7 +1,7 @@
-﻿using ChainOfResponsibility.Implementation.Data.Interfaces;
-using ChainOfResponsibility.Implementation.Data.RepositoryFactories;
-using ChainOfResponsibility.Implementation.Data.RepositoryFactories.Interfaces;
-using Core.Interfaces;
+﻿using ChainOfResponsibility.Data.Abstractions;
+using ChainOfResponsibility.Data.Repositories.Abstractions.Interfaces;
+using ChainOfResponsibility.Data.Repositories.RepositoryFactories;
+using Core.Abstractions.Interfaces;
 using Lamar;
 
 namespace ChainOfResponsibility.Implementation.Data.UnitOfWorkFactories;

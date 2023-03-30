@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using ChainOfResponsibility.Interfaces.Sync;
 using Core;
-using Core.Interfaces;
+using Core.Abstractions.Interfaces;
 using Microsoft.Extensions.Logging;
 
 namespace ChainOfResponsibility.Sync

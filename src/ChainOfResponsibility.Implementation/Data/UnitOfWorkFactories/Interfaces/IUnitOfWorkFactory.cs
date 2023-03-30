@@ -1,4 +1,4 @@
-using Core.Interfaces;
+using Core.Abstractions.Interfaces;
 
 namespace ChainOfResponsibility.Implementation.Data.UnitOfWorkFactories.Interfaces;
 

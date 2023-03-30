@@ -1,6 +1,6 @@
-﻿using Core.Interfaces;
-using ChainOfResponsibility.Interfaces.Async;
+﻿using ChainOfResponsibility.Interfaces.Async;
 using Core;
+using Core.Abstractions.Interfaces;
 
 namespace ChainOfResponsibility.Async
 {

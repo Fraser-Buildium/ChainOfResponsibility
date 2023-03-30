@@ -3,7 +3,7 @@ using ChainOfResponsibility.Implementation.Services.Interfaces;
 using ChainOfResponsibility.Implementation.Services.Parameters;
 using ChainOfResponsibility.Implementation.Services.Results;
 using ChainOfResponsibility.Interfaces.Sync;
-using Core.Interfaces;
+using Core.Abstractions.Interfaces;
 
 namespace ChainOfResponsibility.Implementation.Services
 {

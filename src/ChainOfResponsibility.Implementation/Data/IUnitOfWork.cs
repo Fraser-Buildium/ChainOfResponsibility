@@ -1,5 +1,6 @@
-﻿using ChainOfResponsibility.Implementation.Data.Models;
-using ChainOfResponsibility.Implementation.Data.Repositories.Interfaces;
+﻿using ChainOfResponsibility.Data.Models;
+using ChainOfResponsibility.Data.Models.Abstractions;
+using ChainOfResponsibility.Data.Repositories.Abstractions.Interfaces;
 
 namespace ChainOfResponsibility.Implementation.Data;
 

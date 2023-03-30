@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChainOfResponsibility.Data.Abstractions\ChainOfResponsibility.Data.Abstractions.csproj" />
+      <ProjectReference Include="..\ChainOfResponsibility.Data.Models.Abstractions\ChainOfResponsibility.Data.Models.Abstractions.csproj" />
+      <ProjectReference Include="..\Core.Abstractions\Core.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

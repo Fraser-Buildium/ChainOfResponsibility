@@ -1,6 +1,6 @@
-﻿using ChainOfResponsibility.Implementation.Data.Interfaces;
-using ChainOfResponsibility.Implementation.Data.RepositoryFactories;
-using ChainOfResponsibility.Implementation.Data.RepositoryFactories.Interfaces;
+﻿using ChainOfResponsibility.Data.Abstractions;
+using ChainOfResponsibility.Data.Repositories.Abstractions.Interfaces;
+using ChainOfResponsibility.Data.Repositories.RepositoryFactories;
 using ChainOfResponsibility.Implementation.Data.UnitOfWorkFactories;
 using ChainOfResponsibility.Implementation.Data.UnitOfWorkFactories.Interfaces;
 using Lamar;

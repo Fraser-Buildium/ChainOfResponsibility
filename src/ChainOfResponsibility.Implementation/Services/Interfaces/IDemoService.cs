@@ -1,6 +1,6 @@
 ﻿using ChainOfResponsibility.Implementation.Services.Parameters;
 using ChainOfResponsibility.Implementation.Services.Results;
-using Core.Interfaces;
+using Core.Abstractions.Interfaces;
 
 namespace ChainOfResponsibility.Implementation.Services.Interfaces
 {

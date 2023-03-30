@@ -2,7 +2,7 @@
 using ChainOfResponsibility.Async;
 using ChainOfResponsibility.Interfaces.Async;
 using ChainOfResponsibility.Tests.Models;
-using Core.Interfaces;
+using Core.Abstractions.Interfaces;
 using FluentAssertions;
 using Moq;
 

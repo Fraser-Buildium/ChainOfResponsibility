@@ -1,6 +1,6 @@
 ﻿using ChainOfResponsibility.Interfaces.Sync;
 using Core;
-using Core.Interfaces;
+using Core.Abstractions.Interfaces;
 
 namespace ChainOfResponsibility.Sync
 {

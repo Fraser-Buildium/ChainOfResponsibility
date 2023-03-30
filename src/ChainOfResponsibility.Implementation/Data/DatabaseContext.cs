@@ -1,4 +1,4 @@
-﻿using ChainOfResponsibility.Implementation.Data.Interfaces;
+﻿using ChainOfResponsibility.Data.Abstractions;
 
 namespace ChainOfResponsibility.Implementation.Data;
 

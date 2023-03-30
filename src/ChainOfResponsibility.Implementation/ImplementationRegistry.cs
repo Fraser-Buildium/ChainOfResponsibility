@@ -1,5 +1,5 @@
-﻿using ChainOfResponsibility.Implementation.Data;
-using ChainOfResponsibility.Implementation.Data.RepositoryFactories;
+﻿using ChainOfResponsibility.Data.Repositories.RepositoryFactories;
+using ChainOfResponsibility.Implementation.Data;
 using ChainOfResponsibility.Implementation.Services;
 using Lamar;
 

@@ -1,6 +1,6 @@
-﻿using ChainOfResponsibility.Implementation.Data.Interfaces;
+﻿using ChainOfResponsibility.Data.Abstractions;
 using ChainOfResponsibility.Implementation.Data.UnitOfWorkFactories.Interfaces;
-using Core.Interfaces;
+using Core.Abstractions.Interfaces;
 using Lamar;
 
 namespace ChainOfResponsibility.Implementation.Data.UnitOfWorkFactories;

@@ -1,6 +1,6 @@
 ﻿using ChainOfResponsibility.Interfaces.Async;
 using Core;
-using Core.Interfaces;
+using Core.Abstractions.Interfaces;
 using Microsoft.Extensions.Logging;
 
 namespace ChainOfResponsibility.Async

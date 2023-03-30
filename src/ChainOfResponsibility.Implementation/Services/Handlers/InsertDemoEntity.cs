@@ -3,7 +3,7 @@ using ChainOfResponsibility.Implementation.Services.Parameters;
 using ChainOfResponsibility.Implementation.Services.Results;
 using ChainOfResponsibility.Sync;
 using Core;
-using Core.Interfaces;
+using Core.Abstractions.Interfaces;
 using Microsoft.Extensions.Logging;
 
 namespace ChainOfResponsibility.Implementation.Services.Handlers
