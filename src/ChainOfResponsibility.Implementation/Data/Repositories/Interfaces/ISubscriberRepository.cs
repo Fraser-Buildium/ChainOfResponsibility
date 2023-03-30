@@ -1,5 +1,4 @@
 ﻿using ChainOfResponsibility.Implementation.Data.Models;
-using Core.Interfaces;
 
 namespace ChainOfResponsibility.Implementation.Data.Repositories.Interfaces;
 

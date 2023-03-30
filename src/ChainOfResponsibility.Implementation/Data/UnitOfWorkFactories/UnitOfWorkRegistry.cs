@@ -1,7 +1,6 @@
 ﻿using ChainOfResponsibility.Implementation.Data.Interfaces;
 using ChainOfResponsibility.Implementation.Data.RepositoryFactories;
 using ChainOfResponsibility.Implementation.Data.RepositoryFactories.Interfaces;
-using ChainOfResponsibility.Implementation.Data.UnitOfWorkFactories.Interfaces;
 using Core.Interfaces;
 using Lamar;
 
@@ -13,7 +12,7 @@ public class UnitOfWorkRegistry : ServiceRegistry
     {
         Injectable<IUserContext>();
         Injectable<IDatabaseContext>();
-        For<IRepositoryFactory>().Use<RepositoryFactory>();
+        For<IRepositoryFactory>().Use<RepositoryFactory>().Singleton();
         For<IUnitOfWork>().Use<UnitOfWork>();
     }
 }

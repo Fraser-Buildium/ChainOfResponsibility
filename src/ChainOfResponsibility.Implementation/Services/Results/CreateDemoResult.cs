@@ -1,5 +1,4 @@
-﻿using ChainOfResponsibility.Implementation.Data;
-using ChainOfResponsibility.Implementation.Data.Models;
+﻿using ChainOfResponsibility.Implementation.Data.Models;
 using Core;
 
 namespace ChainOfResponsibility.Implementation.Services.Results
